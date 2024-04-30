@@ -1,0 +1,37 @@
+<style>
+	.i200x300 { width: 200px; height: 300px; }
+</style>
+
+<link rel="stylesheet" href="style.css">
+
+<div>
+	<img src="https://picsum.photos/id/1/200/300" />
+
+	<img src="https://picsum.photos/id/2/200/300" />
+
+	<img src="https://picsum.photos/id/3/400/600" class="i200x300" />
+
+	<img src="https://picsum.photos/id/4/200/300" class="i20x20" />
+
+	<img src="https://picsum.photos/id/92/200/300" />
+
+	<img src="https://picsum.photos/id/93/200/300" />
+
+	<img src="https://picsum.photos/id/94/400/600" class="i200x300" />
+
+	<img src="https://picsum.photos/id/95/400/600" style="width: 200px; height: 300px;" />
+	
+</div>
+
+<br/>
+
+<div>
+	
+	<picture>
+	  <source media="(max-width: 799px)" srcset="https://picsum.photos/id/101/20/30" />
+	  <source media="(min-width: 800px and max-width:1000px)" srcset="https://picsum.photos/id/101/200/300" />
+	  <source media="(min-width: 1001px)" srcset="https://picsum.photos/id/102/200/300" />
+	  <img src="https://picsum.photos/id/101/200/300" alt="Chris standing up holding his daughter Elva" />
+	</picture>
+
+</div>	
